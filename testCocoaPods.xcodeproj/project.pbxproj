@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		336361911FBD77CE00355F6F /* TTTTTTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 336361901FBD77CE00355F6F /* TTTTTTViewController.m */; };
 		33FAA5FF1FBD660800EF7942 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33FAA5FE1FBD660800EF7942 /* AppDelegate.m */; };
 		33FAA6021FBD660800EF7942 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33FAA6011FBD660800EF7942 /* ViewController.m */; };
 		33FAA6051FBD660800EF7942 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33FAA6031FBD660800EF7942 /* Main.storyboard */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3363618F1FBD77CE00355F6F /* TTTTTTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTTTTViewController.h; sourceTree = "<group>"; };
+		336361901FBD77CE00355F6F /* TTTTTTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTTTTViewController.m; sourceTree = "<group>"; };
 		33FAA5FA1FBD660800EF7942 /* testCocoaPods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testCocoaPods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33FAA5FD1FBD660800EF7942 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		33FAA5FE1FBD660800EF7942 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3363618E1FBD77C100355F6F /* TTTTT */ = {
+			isa = PBXGroup;
+			children = (
+				3363618F1FBD77CE00355F6F /* TTTTTTViewController.h */,
+				336361901FBD77CE00355F6F /* TTTTTTViewController.m */,
+			);
+			path = TTTTT;
+			sourceTree = "<group>";
+		};
 		33FAA5F11FBD660800EF7942 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +116,7 @@
 		33FAA5FC1FBD660800EF7942 /* testCocoaPods */ = {
 			isa = PBXGroup;
 			children = (
+				3363618E1FBD77C100355F6F /* TTTTT */,
 				33FAA5FD1FBD660800EF7942 /* AppDelegate.h */,
 				33FAA5FE1FBD660800EF7942 /* AppDelegate.m */,
 				33FAA6001FBD660800EF7942 /* ViewController.h */,
@@ -271,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33FAA6021FBD660800EF7942 /* ViewController.m in Sources */,
+				336361911FBD77CE00355F6F /* TTTTTTViewController.m in Sources */,
 				33FAA60D1FBD660800EF7942 /* main.m in Sources */,
 				33FAA6311FBD664200EF7942 /* TestViewController.m in Sources */,
 				33FAA5FF1FBD660800EF7942 /* AppDelegate.m in Sources */,
