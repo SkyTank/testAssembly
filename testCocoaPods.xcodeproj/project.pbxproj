@@ -15,6 +15,7 @@
 		33FAA60D1FBD660800EF7942 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33FAA60C1FBD660800EF7942 /* main.m */; };
 		33FAA6171FBD660900EF7942 /* testCocoaPodsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33FAA6161FBD660900EF7942 /* testCocoaPodsTests.m */; };
 		33FAA6221FBD660900EF7942 /* testCocoaPodsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33FAA6211FBD660900EF7942 /* testCocoaPodsUITests.m */; };
+		33FAA6311FBD664200EF7942 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33FAA6301FBD664200EF7942 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		33FAA61D1FBD660900EF7942 /* testCocoaPodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testCocoaPodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33FAA6211FBD660900EF7942 /* testCocoaPodsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testCocoaPodsUITests.m; sourceTree = "<group>"; };
 		33FAA6231FBD660900EF7942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33FAA62F1FBD664200EF7942 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		33FAA6301FBD664200EF7942 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				33FAA5FE1FBD660800EF7942 /* AppDelegate.m */,
 				33FAA6001FBD660800EF7942 /* ViewController.h */,
 				33FAA6011FBD660800EF7942 /* ViewController.m */,
+				33FAA62F1FBD664200EF7942 /* TestViewController.h */,
+				33FAA6301FBD664200EF7942 /* TestViewController.m */,
 				33FAA6031FBD660800EF7942 /* Main.storyboard */,
 				33FAA6061FBD660800EF7942 /* Assets.xcassets */,
 				33FAA6081FBD660800EF7942 /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			files = (
 				33FAA6021FBD660800EF7942 /* ViewController.m in Sources */,
 				33FAA60D1FBD660800EF7942 /* main.m in Sources */,
+				33FAA6311FBD664200EF7942 /* TestViewController.m in Sources */,
 				33FAA5FF1FBD660800EF7942 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
